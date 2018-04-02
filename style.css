@@ -1,0 +1,105 @@
+.container {
+    position: absolute;
+    margin-left: 722px;
+    height: 200px;
+    width: 288px;
+    border: 4px solid red;
+}
+
+.container #rw {
+    position: absolute;
+}
+
+.container #rh {
+    position: absolute;
+    margin-top: 19px;
+}
+
+.container #btr {
+    margin-left: 177px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.container #len {
+    position: absolute;
+    margin-top: 62px;
+    
+}
+
+.container #bts {
+    margin-left: 193px;
+    position: absolute;
+    margin-top: 62px;
+}
+
+.container #cir {
+    position: absolute;
+    margin-top: 100px;
+}
+
+.container #btc {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 193px;
+}
+
+.container #tri {
+    position: absolute;
+    margin-top: 144px;
+}
+
+.container #btt {
+    position: absolute;
+    margin-top: 144px;
+    margin-left: 193px;
+}
+
+#box {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    background: black;
+    border: 5px solid red;
+}
+
+.specs {
+    height: 400px;
+    position: absolute;
+    width: 288px;
+    background: gray;
+    color: white;
+    margin-left: 722px;
+    margin-top: 254px;
+    border: 4px solid black;
+}
+
+#shape {
+position: absolute;
+}
+
+#width {
+position: absolute;
+margin-top: 73px;
+}
+
+#height {
+position: absolute;
+margin-top: 146px;
+}
+
+#radius {
+position: absolute;
+margin-top: 223px;
+}
+
+#area {
+position: absolute;
+margin-top: 303px;
+}
+
+#perimeter {
+    position: absolute;
+    margin-top: 368px;
+}
+

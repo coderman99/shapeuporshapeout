@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>ShapeUp</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="rectangle">
+    <label for="rectangle">
+        <input type="number" name="rectangle-width" placeholder="width" id="rw">
+        <input type="number" name="rectangle-height" placeholder="height" id="rh">
+        <button id="btr">Draw Rectangle</button>
+    </label>
+        </div>
+        <div class="square">
+    <label for="square">
+        <input type="number" name="square" placeholder="length" id="len" value="6">
+        <button id="bts">Draw Square</button>
+    </label>
+        </div>
+        <div class="circle">
+    <label for="circle">
+        <input type="number" name="circle" placeholder="radius" id="cir">
+        <button id="btc">Draw Circle</button>
+    </label>
+        </div>
+        <div class="triangle">
+    <label for="triangle">
+        <input type="number" name="triangle" placeholder="height" id="tri">
+        <button id="btt">Draw Triangle</button>
+    </label>
+        </div>
+    </div>
+
+    <div class="specs">
+        <div id="shape"><span>Shape:</span><span></span></div>
+        <div id="width"><span>Width:</span><span></span></div>
+        <div id="height"><span>Height:</span><span></span></div>
+        <div id="radius"><span>Radius:</span><span></span></div>
+        <div id="area"><span>Area:</span><span></span></div>
+        <div id="perimeter"><span>Perimeter:</span><span></span></div>
+    </div>
+
+
+    <div id="box"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
